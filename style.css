@@ -180,6 +180,7 @@ input[type="submit"] {
   /* General layout adjustments */
   body {
     font-size: 14px; /* Slightly smaller font for smaller screens */
+    width:100vw;
   }
 
   header {
