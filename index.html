@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Customer Intake</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Moirai+One&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+  </head>
+  <body>
+
+
+    <header>
+      <div class="logo">
+        
+        <div class="o-word">obsidian</div>
+        
+        <div class="d-word">design</div>
+        
+      </div>
+    </header>
+
+    <h1 class="heading">Customer Intake Form</h1>
+
+    <div class="wrapper1">
+      
+      <form action="https://formspree.io/f/mbjndang" method="POST">
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name">
+        <label for="company-name">Company Name</label>
+        <input type="text" name="company-name" id="company-name">
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email">
+        <label for="number">Phone Number</label>
+        <input type="text" name="number" id="number">
+      
+    </div>
+
+
+      <h2 class="section">General Information:</h2>
+
+      <ul class="gen-info">
+        <li><label for="q1"><h3>1. Tell us about your business or organization:</h3> Briefly describe your company, its main products or services, and target audience.</label></li>
+        <textarea id="q1" name="q1" rows="5" cols="50"></textarea>
+
+        <li><label for="q2"><h3>2. Website status:</h3> Do you have an existing website? <br>
+          <div class="yn">
+          <label for="yes">Yes</label>
+          <input type="radio" name="web-status" id="yes" value="yes">
+          <label for="no">No</label>
+          <input type="radio" name="web-status" id="no" value="no"><br>
+          </div>
+          
+          
+             If yes, please provide the URL.</label></li>
+             <textarea id="q2" name="q2" rows="5" cols="50"></textarea>
+
+
+             <li><label for="q3"><h3>3. Project type:</h3> What are you primarily interested in:</label></li>
+
+             
+             
+               <label for="project-type-ux-ui">UX/UI Design</label>
+               <input type="radio" name="project-type" id="project-type-ux-ui" value="ux/ui">
+             
+               <label for="project-type-web-dev">Web Development</label>
+               <input type="radio" name="project-type" id="project-type-web-dev" value="web-dev">
+             
+               <label for="project-type-app-dev">App Development</label>
+               <input type="radio" name="project-type" id="project-type-app-dev" value="app-dev">
+             
+               <label for="project-type-combo">UX/UI-Website</label>
+               <input type="radio" name="project-type" id="project-type-combo" value="combo">
+             
+               <label for="project-type-combo2">UX/UI-App</label>
+               <input type="radio" name="project-type" id="project-type-combo2" value="combo2">
+             
+
+
+        <li><label for="q4"><h3>4. Project timeline and budget:</h3> What is your ideal timeline for completion and your approximate budget range for this project?</label></li>
+          <textarea id="q4" name="timeline" rows="5" cols="50"></textarea><br>
+         
+      </ul>
+
+
+      <h2 class="section">Design and Functionality:</h2>
+
+
+      <ul class="design-function">
+        <li><label for="q5"><h3>5. Website goals:</h3> What are your main goals and objectives for your website or app?</label></li>
+        <textarea id="q5" name="goals" rows="5" cols="50"></textarea>
+
+        <li><label for="q6"><h3>6. Target features:</h3> What key features and functionalities are essential for your project? (e.g., e-commerce, contact forms, social media integration)</label></li>
+        <textarea id="q6" name="features" rows="5" cols="50"></textarea>
+
+
+        <li><label for="q7"><h3>7. Design preferences:</h3> Do you have any design preferences or inspiration websites you can share?</label></li>
+        <textarea id="q7" name="pref" rows="5" cols="50"></textarea>
+      </ul>
+
+
+      <h2 class="section">Pain Points and Competitors:</h2>
+
+      <ul class="pain-comp">
+        <li><label for="q8"><h3>8. Website challenges:</h3> If you have an existing website, what are the main challenges you face with it?</label>
+        </li>
+        <textarea id="q8" name="challenge" rows="5" cols="50"></textarea> 
+
+
+        <li><label for="q9"><h3>9. Competitor analysis:</h3> Who are your main competitors online? (List URLs if possible)</label></li>
+        <textarea id="q9" name="competitors" rows="5" cols="50"></textarea> 
+
+
+
+        <li><label for="q10"><h3>10. Competitive advantage:</h3> What differentiates you from your competitors, and how can your website showcase that?</label>
+        </li>
+        <textarea id="q10" name="comp-ad" rows="5" cols="50"></textarea>
+      </ul>
+
+
+      <h2 class="section">Bonus questions (choose based on package focus):</h2>
+
+      <ul class="bonus">
+        <li><label for="q11"><h3>11. UX/UI:</h3> Do you have specific accessibility requirements or user personas in mind?</label></li>
+        <textarea id="q11" name="access" rows="5" cols="50"></textarea>
+
+
+        <li><label for="q12"><h3>12. Website development:</h3> Are there any integrations with third-party platforms you need?</label></li>
+        <textarea id="q12" name="site-dev" rows="5" cols="50"></textarea>
+
+
+        <li><label for="q13"><h3>13. App development:</h3> What type of device or platform are you targeting (e.g., mobile, web)?</label></li>
+        <textarea id="q13" name="app-target" rows="5" cols="50"></textarea>
+
+        <li><label for="q14">14. Do you prefer:</label></li>
+        
+       
+        <label for="email">Email</label>
+        <input type="radio" name="contact" id="email" value="email">
+        
+        <label for="call">Call</label>
+        <input type="radio" name="contact" id="call" value="call">
+       
+        <label for="text">Text</label>
+        <input type="radio" name="contact" id="text" value="text">
+      </ul>
+    
+
+      <div class="sub">
+      <input class="submit" type="submit" value="Submit">
+      </div>
+
+
+
+
+    </form>
+
+
+
+
+
+
+
+
+
+
+
+    <script src="script.js"></script>
+  </body>
+</html>
