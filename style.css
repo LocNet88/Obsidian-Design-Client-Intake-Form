@@ -178,7 +178,7 @@ input[type="submit"] {
 
 /* Media query for smaller screens (up to 768px) */
 
-@media (max-width: 500px) {
+@media (max-width: 320px) {
 
   /* General layout adjustments */
   body {
