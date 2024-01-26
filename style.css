@@ -96,7 +96,8 @@ h1{
   flex-direction: column; /* Stack elements vertically */
   align-items: center; /* Center elements horizontally */
   justify-content: space-around; /* Distribute elements evenly with spacing */
-  width:500px; /* Adjust width as needed */
+  width:100%;
+   /* Adjust width as needed */
   margin: 0 auto; /* Center the form */
   padding: 20px;
   border: 1px solid #ccc;
@@ -156,14 +157,14 @@ input[type="submit"] {
 
 
 @media only screen and (max-width: 320px) {
-  .wrapper1, .section {
+  .wrapper1, .section{
     width: 100%;
   }
 }
 
-@media only screen and (max-width: 320px) {
+@media only screen and (min-width: 768px) {
   .section, h2, ul{
-    width:100vw;
+    width:500px;
   }
 }
 
