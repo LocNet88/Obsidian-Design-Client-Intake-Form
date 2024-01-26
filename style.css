@@ -176,45 +176,25 @@ input[type="submit"] {
 /*===============================MEDIA QUERIES================================*/
 
 
-/* Media query for smaller screens (up to 768px) */
-
-@media (max-width: 320px) {
-
-  /* General layout adjustments */
-  body {
-    font-size: 14px; /* Slightly smaller font for smaller screens */
-    width:100vw;
+@media only screen and (max-width: 320px) {
+  .wrapper1, .section {
+    width: 100%;
   }
+}
 
-  header {
-    height: auto; /* Adjust header height as needed */
-    padding: 15px; /* Adjust header padding as needed */
+/* Tablets */
+@media only screen and (min-width: 321px) and (max-width: 768px) {
+  .wrapper1, .section {
+    width: 70%;
   }
+}
 
-  .logo {
-    width: 150px; /* Adjust logo size for smaller screens */
-    height: 150px;
-  }
+/* Desktop */
+@media only screen and (min-width: 769px) and (max-width: 1200px) {
+  /* No specific changes in width */
+}
 
-  .o-word, .d-word{
-    font-size:1rem;
-  }
-
-  /* Form adjustments */
-
-  .wrapper1,
-  .section {
-    width: 100vw; /* Make form sections full-width */
-    padding: 15px; /* Adjust padding as needed */
-  }
-
-  label {
-    font-size: 1rem; /* Adjust label font size if needed */
-  }
-
-  input[type="submit"] {
-    width: 100%; /* Make submit button full-width */
-    font-size: 16px; /* Adjust button font size if needed */
-  }
-
+/* Larger Desktops */
+@media only screen and (min-width: 1201px) {
+  /* Add styles for larger desktops if needed */
 }
