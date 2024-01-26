@@ -32,7 +32,7 @@
         <label for="company-name">Company Name</label>
         <input type="text" name="company-name" id="company-name">
         <label for="email">Email</label>
-        <input type="email" name="email" id="email">
+        <input type="email" name="email" id="email" required>
         <label for="number">Phone Number</label>
         <input type="text" name="number" id="number">
       
@@ -61,21 +61,25 @@
              <li><label for="q3"><h3>3. Project type:</h3> What are you primarily interested in:</label></li>
 
              
+               <fieldset>
+               <label for="project-type-ux-ui"><p>UX(Architect)/UI(Interior)Design</p>-UX makes sure a website is easy to navigate and find what you need, while UI makes it visually appealing and enjoyable to use.</label>
+               <input type="radio" name="project-type" id="project-type-ux-ui" value="ux/ui"></fieldset>
              
-               <label for="project-type-ux-ui">UX/UI Design</label>
-               <input type="radio" name="project-type" id="project-type-ux-ui" value="ux/ui">
+               <fieldset>
+               <label for="project-type-web-dev"><p>Web Development(Construction)</p>-Development brings the website to life from blueprints and visual mockups.</label>
+               <input type="radio" name="project-type" id="project-type-web-dev" value="web-dev"></fieldset>
              
-               <label for="project-type-web-dev">Web Development</label>
-               <input type="radio" name="project-type" id="project-type-web-dev" value="web-dev">
+               <fieldset>
+               <label for="project-type-app-dev"><p>App Development</p>-Similar to web development, app development is a more personalized reinforcement to your website, if applicable.</label>
+               <input type="radio" name="project-type" id="project-type-app-dev" value="app-dev"></fieldset>
              
-               <label for="project-type-app-dev">App Development</label>
-               <input type="radio" name="project-type" id="project-type-app-dev" value="app-dev">
+               <fieldset>
+               <label for="project-type-combo"><p>UX/UI-Web Development(Full House Package)</p>-This includes development alongside UX and UI design. You get your website built from scratch, looking great and working smoothly.</label>
+               <input type="radio" name="project-type" id="project-type-combo" value="combo"></fieldset>
              
-               <label for="project-type-combo">UX/UI-Website</label>
-               <input type="radio" name="project-type" id="project-type-combo" value="combo">
-             
-               <label for="project-type-combo2">UX/UI-App</label>
-               <input type="radio" name="project-type" id="project-type-combo2" value="combo2">
+               <fieldset>
+               <label for="project-type-combo2"><p>UX/UI-App Development(Full House Package)</p></label>
+               <input type="radio" name="project-type" id="project-type-combo2" value="combo2"></fieldset>
              
 
 
