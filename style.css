@@ -16,6 +16,7 @@ body{
   font-weight:bold;
   letter-spacing:2px;
   line-height:25px;
+  width:100vw;
 }
 
 ul{
@@ -177,7 +178,7 @@ input[type="submit"] {
 
 /* Media query for smaller screens (up to 768px) */
 
-@media (max-width: 768px) {
+@media (max-width: 500px) {
 
   /* General layout adjustments */
   body {
@@ -203,7 +204,7 @@ input[type="submit"] {
 
   .wrapper1,
   .section {
-    width: 100%; /* Make form sections full-width */
+    width: 100vw; /* Make form sections full-width */
     padding: 15px; /* Adjust padding as needed */
   }
 
