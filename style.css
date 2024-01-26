@@ -1,0 +1,170 @@
+*, 
+*::before,
+*::after{
+  box-sizing:border-box;
+  margin:0;
+  padding:0;
+  
+}
+
+body{
+  background-image: linear-gradient(0.25turn, #3f87a6, #9fd675, #f69d3c);
+  font-family:'Ubuntu', sans-serif;
+  font-weight:bold;
+  letter-spacing:2px;
+  line-height:25px;
+}
+
+ul{
+  list-style-type:none;
+}
+
+h1, h2, h3{
+  font-family: 'Oswald', sans-serif;
+  letter-spacing:5px;
+}
+
+h3{
+  margin-bottom:20px;
+}
+
+
+
+header{
+  height:245px;
+  width:100%;
+  background:black;
+  margin:0;
+  padding:20px;
+}
+.logo {
+  height: 210px;
+  width: 210px;
+  border: 5px solid white;
+  border-radius: 50%;
+  position: relative;
+  background: linear-gradient(to bottom, black 50%, white 50%); /* Create the split background */
+  margin:auto;
+  letter-spacing:0;
+}
+
+.o-word {
+  position: absolute;
+  top: 35px;
+  left: 12px;
+  font-family: 'Moirai One', system-ui;
+  font-size: 40px;
+  font-weight: bold;
+  color: white; /* Set text color to white for top half */
+}
+
+.d-word {
+  position: absolute;
+  top: 95px;
+  left: 40px;
+  font-family: 'Moirai One', system-ui;
+  font-size: 40px;
+  font-weight: bold;
+  color: black; /* Set text color to black for bottom half */
+}
+
+/*=============================FORM STYLE============================*/
+
+h1{
+  text-align:center;
+  margin-top:30px;
+  margin-bottom:30px;
+}
+
+.wrapper1 {
+  display: flex;
+  flex-direction: column; /* Stack elements vertically */
+  align-items: center;  /* Center elements horizontally */
+  justify-content: space-between; /* Add even spacing between elements */
+  /* Additional styling for visual appeal */
+  width: 400px; /* Adjust width as needed */
+  margin: 0 auto; /* Center the container */
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  
+}
+
+.wrapper1 label {
+  margin-bottom: 5px; /* Add spacing between labels and inputs */
+}
+
+.wrapper1 input {
+  width: 100%; /* Ensure inputs take full width */
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px; /* Add spacing between inputs */
+}
+
+.yn{
+  text-align:center;
+}
+
+/*===========================GENERAL INFO===========================*/
+
+.section, h2, ul {
+  display: flex; /* Enable flexbox layout */
+  flex-direction: column; /* Stack elements vertically */
+  align-items: center; /* Center elements horizontally */
+  justify-content: space-around; /* Distribute elements evenly with spacing */
+  width: 500px; /* Adjust width as needed */
+  margin: 0 auto; /* Center the form */
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-top:20px;
+  
+}
+
+h2 {
+  margin-bottom: 20px; /* Add spacing below headings */
+}
+
+li {
+  margin-bottom: 15px; /* Add spacing between list items */
+  margin-top:15px;
+}
+
+label {
+  display: block; /* Ensure labels take full width */
+  margin-bottom: 5px; /* Add spacing below labels */
+  margin-top:10px;
+}
+
+textarea {
+  width: 100%; /* Ensure textareas take full width */
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px; /* Add spacing below textareas */
+}
+
+input[type="radio"] {
+  margin-bottom: 10px; /* Add spacing between radio buttons */
+}
+
+input[type="submit"] {
+  width: 37.5%; /* Ensure submit button takes full width */
+  padding: 15px;
+  background-color: #4CAF50; /* Green background */
+  color: white; /* White text */
+  border: none; /* Remove default border */
+  border-radius: 5px;
+  cursor: pointer; /* Indicate interactivity */
+  
+}
+
+.sub{
+  display:flex;
+  justify-content:center;
+}
+
+.sub:hover{
+  opacity:80%;
+}
