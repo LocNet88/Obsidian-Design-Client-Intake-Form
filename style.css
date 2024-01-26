@@ -40,36 +40,15 @@ header{
   background:black;
   margin:0;
   padding:20px;
+  display:flex;
+  justify-content:center;
 }
-.logo {
+
+
+img{
   height: 210px;
   width: 210px;
-  border: 5px solid white;
-  border-radius: 50%;
-  position: relative;
-  background: linear-gradient(to bottom, black 50%, white 50%); /* Create the split background */
-  margin:auto;
-  letter-spacing:0;
-}
-
-.o-word {
-  position: absolute;
-  top: 45px;
-  left: 12px;
-  font-family: 'Moirai One', system-ui;
-  font-size: 40px;
-  font-weight: bold;
-  color: white; /* Set text color to white for top half */
-}
-
-.d-word {
-  position: absolute;
-  top: 110px;
-  left: 40px;
-  font-family: 'Moirai One', system-ui;
-  font-size: 40px;
-  font-weight: bold;
-  color: black; /* Set text color to black for bottom half */
+  
 }
 
 /*=============================FORM STYLE============================*/
