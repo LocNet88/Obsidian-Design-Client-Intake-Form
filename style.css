@@ -51,7 +51,7 @@ header{
 
 .o-word {
   position: absolute;
-  top: 35px;
+  top: 45px;
   left: 12px;
   font-family: 'Moirai One', system-ui;
   font-size: 40px;
@@ -61,7 +61,7 @@ header{
 
 .d-word {
   position: absolute;
-  top: 95px;
+  top: 110px;
   left: 40px;
   font-family: 'Moirai One', system-ui;
   font-size: 40px;
@@ -190,6 +190,10 @@ input[type="submit"] {
   .logo {
     width: 150px; /* Adjust logo size for smaller screens */
     height: 150px;
+  }
+
+  .o-word, .d-word{
+    font-size:1rem;
   }
 
   /* Form adjustments */
