@@ -168,3 +168,44 @@ input[type="submit"] {
 .sub:hover{
   opacity:80%;
 }
+
+/*===============================MEDIA QUERIES================================*/
+
+
+/* Media query for smaller screens (up to 768px) */
+
+@media (max-width: 768px) {
+
+  /* General layout adjustments */
+  body {
+    font-size: 14px; /* Slightly smaller font for smaller screens */
+  }
+
+  header {
+    height: auto; /* Adjust header height as needed */
+    padding: 15px; /* Adjust header padding as needed */
+  }
+
+  .logo {
+    width: 150px; /* Adjust logo size for smaller screens */
+    height: 150px;
+  }
+
+  /* Form adjustments */
+
+  .wrapper1,
+  .section {
+    width: 100%; /* Make form sections full-width */
+    padding: 15px; /* Adjust padding as needed */
+  }
+
+  label {
+    font-size: 1rem; /* Adjust label font size if needed */
+  }
+
+  input[type="submit"] {
+    width: 100%; /* Make submit button full-width */
+    font-size: 16px; /* Adjust button font size if needed */
+  }
+
+}
